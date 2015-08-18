@@ -1,0 +1,215 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP VI Post Duplicator 1.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Pranjali Phulwari <support@vivacityinfotech.com>\n"
+"Language-Team: Team Vivacity <support@vivacityinfotech.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-SearchPath-0: wp-vi-post-duplicator\n"
+
+#: wp-vi-post-duplicator/wvpd.php:5
+msgid "Clone posts and pages."
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:43
+#: wp-vi-post-duplicator/wvpd-options.php:74
+msgid "WP VI Post Duplicator"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:74
+msgid "By"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:82
+msgid "Copy these options"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:88
+msgid "Excerpt"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:92
+msgid "Enable checkbox for copy the excerpt."
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:97
+msgid "Attachments"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:101
+msgid "Enable checkbox for copy the attachments."
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:106
+msgid "Status"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:110
+msgid "Enable checkbox for copy the original post status:draft/published/pending when cloning from the post list."
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:115
+msgid "Original Data"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:118
+msgid ""
+"Enable the checkbox for copy original date.</br>\n"
+"\t\t\t\t\tif checkbox is unchecked, new copy will have its publication data set to current time."
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:124
+msgid "Children"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:128
+msgid "Enable checkbox for copy the children."
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:134
+msgid "Do not copy these options"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:138
+msgid "Do not copy these meta fields"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:142
+msgid "Comma-separated list of meta fields that must not be copied"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:147
+msgid "Do not copy these taxonomies"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:160
+msgid "Select the taxonomies you don't want to be copied"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:166
+msgid "Title settings"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:170
+msgid "Title prefix"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:174
+msgid "Add text before the original title, e.g. \"Copy of\" (Leave blank for no prefix)"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:179
+msgid "Title suffix"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:183
+msgid "Add text after the original title, e.g. \"duplicate\" (Leave blank for no suffix)"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:189
+#: wp-vi-post-duplicator/wvpd-options.php:193
+msgid "Roles settings"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:205
+msgid "Warning: users will be able to copy all posts, even those of other users"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:211
+msgid "Display settings"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:215
+msgid "Enable for copy post/page into another post-types"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:217
+msgid ""
+"By default its creates copy to current post-type.\n"
+"Enable checkbox for copy post/page into another post-types, in post/page edit screen you will get checkboxes for post-types. "
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:224
+msgid "Show links in"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:228
+msgid "Post list"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:231
+msgid "Edit screen"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:238
+msgid "Save Changes"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:247
+msgid "Download Free Plugins"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:251
+msgid "has following plugins for you"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:270
+#: wp-vi-post-duplicator/wvpd-options.php:273
+msgid "Donate Here"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-options.php:272
+msgid "If you want to donate , please click on below image."
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-common.php:62
+#: wp-vi-post-duplicator/wvpd-common.php:66
+msgid "Copy to a new draft"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-admin.php:106
+msgid "Copy to listed post types as draft"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-admin.php:108
+msgid "Copy to current post types as draft"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-admin.php:112
+msgid "Clone this item"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-admin.php:113
+msgid "Clone"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-admin.php:130
+msgid "Copy to listed post types"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-admin.php:132
+msgid "Copy to current post types"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-admin.php:160
+msgid "No post to duplicate has been supplied!"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-admin.php:190
+msgid "Copy creation failed, could not find original:"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd-admin.php:201
+msgid "Title"
+msgstr ""
+
+#: wp-vi-post-duplicator/wvpd.php:41
+msgid "Settings"
+msgstr ""
+

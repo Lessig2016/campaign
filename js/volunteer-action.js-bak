@@ -1,0 +1,19 @@
+
+$('#volunteerButton').on('click',function(){
+	vData = {
+  	'email': $('#v_email').val(),
+  	'zipcode': $('#v_zip').val(),
+  	'phone': $('#v_phone').val(),
+  	'first_name': $('#v_first').val(),
+  	'last_name': $('#v_last').val(), 
+  	'volunteer': ($('#v_volunteer').is(':checked') ? 'Yes' : 'No'),
+ 	 'source': '' ,
+  	'dont_redirect':true,
+  	};
+
+	$.post('https://pledge.lessigforpresident.com/r/subscribe',vData,function(res){
+   	console.log(res);
+	$('#volunteerAreaSignup').parent().parent().parent().parent().fadeOut();
+	});
+
+});
