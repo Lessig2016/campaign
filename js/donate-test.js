@@ -1,4 +1,4 @@
-var PLEDGE_URL = "https://pledge-test.lessigforpresident.com";
+var PLEDGE_URL = "https://pledge-test.lessig2016.us";
 var RECEIPT_URL = "/thank-you-test";
 
 function step2(amount){
@@ -56,7 +56,7 @@ var GOAL_DOLLARS = 5000000;
       date.setTime(date.getTime()+(24*60*60*1000));
       document.cookie = ("last_team_key={{team.key()}};" +
                          "expires=" + date.toGMTString() +
-                         ";domain=.lessigforpresident.com;path=/");
+                         ";domain=.lessig2016.us;path=/");
       var browserInfo = get_browser_info()
       if (browserInfo.name == 'Firefox') {
         console.log("detected FF version: " + browserInfo.version);

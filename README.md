@@ -1,7 +1,7 @@
 # campaign
 All Original code in this project is licensed under the Apache License, version 2.
 
-This is the repository of our current, very quickly put up, WordPress site. The site can be seen at https://www.lessigforpresident.com
+This is the repository of our current, very quickly put up, WordPress site. The site can be seen at https://lessig2016.us
 
 WordPress code used as licensed under the General Public License v2 or later. To see how this relates to the Apache License see:
 https://www.apache.org/licenses/GPL-compatibility.html

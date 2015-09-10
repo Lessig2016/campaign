@@ -33,7 +33,7 @@ jQuery(function(){
         
         var hasErrors = formValidate(vData);
         if(!hasErrors){
-	$.post('https://pledge.lessigforpresident.com/r/subscribe',vData,function(res){
+	$.post('https://pledge.lessig2016.us/r/subscribe',vData,function(res){
    	console.log(res);
 	$('#volunteerAreaSignup').parent().parent().fadeOut();
 window.scrollTo(0,0);

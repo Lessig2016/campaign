@@ -161,7 +161,7 @@ $('#vmap').vectorMap({
 	$('#volunteer-box').hide();
 	showVolunteerForm();
 	window.scrollTo(0,0);
-	//var region_url = 'https://lessigforpresident.com/region/' + region;
+	//var region_url = 'https://lessig2016.us/region/' + region;
 	
     }
   });
