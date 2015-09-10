@@ -7,8 +7,8 @@ language_attributes(); ?>>
 <script src="//cdn.optimizely.com/js/3323910293.js"></script>
 <?php wp_head(); ?>
 
-<meta property="og:url" content="https://lessigforpresident.com/"/>
-<meta property="og:image" content="https://lessigforpresident.com/wp-content/uploads/2015/08/facebook-og-image.jpg"/>
+<meta property="og:url" content="https://lessig2016.us/"/>
+<meta property="og:image" content="https://lessig2016.us/wp-content/uploads/2015/08/facebook-og-image.jpg"/>
 <meta property="og:title" content="Lessig 2016 | Referendum for Citizen Equality"/>
 <meta property="og:description" content="We need a government that works — one not corrupted by the influence of money, one capable of representing us. We don’t have that government now because the system is rigged. Here is my plan to fix it"/>
 

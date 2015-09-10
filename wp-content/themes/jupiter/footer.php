@@ -61,7 +61,7 @@ if($post_id) {
 					Exploratory Committee.<br />
 					Some Rights Reserved
 				</p>
-				<p><a href="mailto:info@lessigforpresident.com">E-mail</a>&nbsp; | &nbsp;<a href="/privacy-policy">Privacy Policy</a>&nbsp; | &nbsp;<a href="/terms-of-service">Terms of Service</a> </p>
+				<p><a href="mailto:info@lessig2016.us">E-mail</a>&nbsp; | &nbsp;<a href="/privacy-policy">Privacy Policy</a>&nbsp; | &nbsp;<a href="/terms-of-service">Terms of Service</a> </p>
 				<p><a href="https://creativecommons.org/licenses/by/2.0/" target="_blank"><img src="/wp-content/uploads/2015/07/cc-by.png" alt="CC BY" /></a></p>
 			</div>
 
@@ -216,7 +216,7 @@ function numberWithCommas(x) {
 $(document).ready(function(){
     var GOAL = 1000000;
 
-    jQuery.getJSON('//pledge.lessigforpresident.com/r/total', function(data) {
+    jQuery.getJSON('//pledge.lessig2016.us/r/total', function(data) {
       var totalRaised = Math.round(data.totalCents/100);
       $('#cash_money_count').text(numberWithCommas(totalRaised));
       if (totalRaised > 5000) {
@@ -224,7 +224,7 @@ $(document).ready(function(){
       }
     });
 
-    jQuery.getJSON('//pledge.lessigforpresident.com/r/num_pledges', function(data) {
+    jQuery.getJSON('//pledge.lessig2016.us/r/num_pledges', function(data) {
       $('#donor_count').text(numberWithCommas(data.count));
     });
 
@@ -282,7 +282,7 @@ $('#vmap').vectorMap({
     showTooltip: true,
     onRegionClick: function(element, code, region)
     {
-	var region_url = 'https://lessigforpresident.com/region/' + region;
+	var region_url = 'https://lessig2016.us/region/' + region;
 	document.location.href = region_url;
     }
 });
