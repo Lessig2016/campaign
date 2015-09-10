@@ -1,4 +1,4 @@
-var PLEDGE_URL = "https://pledge.lessig2016.us";
+var PLEDGE_URL = "https://pledge.lessig2016.us"; //changed for new domain
 var RECEIPT_URL = "/thank-you";
 
 function step2(amount){
