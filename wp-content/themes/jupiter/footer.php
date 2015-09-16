@@ -208,6 +208,7 @@ if($post_id) {
 
 <script src="/wp-content/uploads/2015/08/jquery.vmap_.packed.js"></script>
 <script src="/wp-content/uploads/2015/08/jquery.vmap_.usa_.js"></script>
+<script src="/wp-includes/js/jquery/jquery.timeago.js"></script>
 <script>
 function numberWithCommas(x) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
