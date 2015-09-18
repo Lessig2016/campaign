@@ -2,6 +2,12 @@
 
 This is the repository of our current, very quickly put up, WordPress site. The site can be seen at https://lessig2016.us
 
+## tl;dr
+
+* **Applicable skills** Word Press, Visual Composer, HTML/CSS/JS
+* **Slack** [#gh-campaign](https://teamlessigtech.slack.com/messages/gh-campaign/)
+* **Project lead** [@bucchere](https://teamlessigtech.slack.com/team/bucchere)
+
 We are currently working on a dev and deploy workflow.
 
 You are responsible for complying with any applicable campaign finance laws.
