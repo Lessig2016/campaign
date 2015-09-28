@@ -156,7 +156,13 @@ get_header(); ?>
 
 							<?php if(isset($mk_options['blog_single_title']) && !empty($mk_options['blog_single_title']) ? $mk_options['blog_single_title'] : 'true') : ?>
 								<?php if($mk_options['blog_single_title'] == 'true') : ?>
+ 								if(<?php get_post_custom_values( 'custom_field' ); ?>!=null){
  								<h2 class="blog-single-title"><a href="<?php get_post_custom_values( 'custom_field' ); ?>"><?php the_title(); ?></a></h2>
+ 								}
+ 								else
+ 								{
+ 								<h2 class="blog-single-title"><?php the_title(); ?></h2>
+ 								}
  								<?php endif; ?>
  							<?php endif; ?>
 
