@@ -19,10 +19,6 @@ Email your request to [x+45273984948124@mail.asana.com](mailto:x+45273984948124@
 
 Keep an eye on your email inbox after submitting a ticket because you will likely get a response quickly, especially if more information is needed.
 
-## 24x7 Support Plan
-
-Developers in Moscow will handle requests from approximately 5am—noon Eastern Time. Developers in San Francisco will handle requests coming in from noon Eastern onward.
-
 ## Questions, comments, concerns?
 
 Email [chris@lessigforpresident.com](mailto:chris@lessigforpresident.com) or ping @bucchere on Slack.
