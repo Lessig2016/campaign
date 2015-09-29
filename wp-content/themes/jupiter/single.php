@@ -204,6 +204,16 @@ get_header(); ?>
 							<div class="clearboth"></div>
 							<div class="mk-single-content" itemprop="articleBody">
 								<?php the_content(); ?>
+								<?php?>
+<div class="inline-subscribe">
+<div class="name">Join Team Lessig</div>
+<form action="//pledge.lessig2016.us/r/subscribe" method="POST"><input class="email" name="email" required="" type="email" placeholder="Email" />
+<input class="zip" name="zipcode" required="" type="text" placeholder="ZIP code" />
+<input name="redirect" type="hidden" value="//lessig2016.us/take-action" />
+<input name="source" type="hidden" value="homePageBottom" />
+<button type="submit">Sign up</button></form></div>
+<div class="inline-share"><span class="inline-share-h3">Share with friends</span></div>
+<?php?>
 							</div>
 							<?php wp_link_pages('before=<div class="mk-page-links">'.__('Pages:', 'mk_framework').'&after=</div>'); ?>
 
