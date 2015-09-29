@@ -1,3 +1,13 @@
+<?php $post_title = get_post_meta($post->ID, 'Post-Title', true);
+if ($post_title) {
+?>
+<h2><?php echo $post_title; ?></h2>
+
+<?php } else { ?>
+
+<h2><?php the_title(); ?></h2>
+
+<?php } ?>
 <?php
 function blog_grid_style($atts, $current)
 {
