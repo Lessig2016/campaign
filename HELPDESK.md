@@ -9,9 +9,9 @@ The LESSIG2016.US tech team provides a 24x7 helpdesk for technical and content r
 We support four types of tickets:
 
 1. Minor copy changes to the web site (SLA = 1 hour)
-1. New blog post (SLA = 6 hours)
-1. New press release (SLA = 6 hours)
-1. New mass email blash (SLA = 12 hours)
+1. New press release (SLA = 2 hours)
+1. New blog post (SLA = 4 hours)
+1. New mass email blast (SLA = 6 hours)
 
 ## Process for submitting tickets
 
