@@ -13,6 +13,8 @@ We support four types of tickets:
 1. New blog post (SLA = 4 hours)
 1. New mass email blast (SLA = 6 hours)
 
+SLA clock stops when helpdesk staff are waiting for answers on content details.
+
 ## Process for submitting tickets
 
 Email your request to [x+45273984948124@mail.asana.com](mailto:x+45273984948124@mail.asana.com). Please indicate the type of request (see above) in the subject line and include as much detail as possible in the message body.
