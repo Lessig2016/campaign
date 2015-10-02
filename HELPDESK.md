@@ -17,6 +17,8 @@ SLA clock stops when helpdesk staff are waiting for answers on content details.
 
 ## Process for submitting tickets
 
+Your email must first be set up on the helpdesk.  If you are not sure if you've been set up, contact chris@lessigforpresident.com or just try to open a helpdesk request on the email below.
+
 Email your request to [x+45273984948124@mail.asana.com](mailto:x+45273984948124@mail.asana.com). Please indicate the type of request (see above) in the subject line and include as much detail as possible in the message body.
 
 Keep an eye on your email inbox after submitting a ticket because you will likely get a response quickly, especially if more information is needed.
