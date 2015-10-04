@@ -25,7 +25,7 @@ if($post_id) {
 		</div>
 	</div>
 
-	<?php 
+	<?php
 	// hide this on landing page / aka homepage/frontpage
 	if( ! is_front_page()) {
 	?>
@@ -106,19 +106,19 @@ if($post_id) {
 
 </div>
 
-	<?php 
+	<?php
 		if ($mk_options['go_to_top'] != 'false') {
 			echo '<a href="#" class="mk-go-top"><i class="mk-icon-chevron-up"></i></a>';
 		}
 	?>
-	
+
 	<?php
 		do_action('quick_contact');
 		do_action('full_screen_search_form');
 	?>
 
 
-	<!-- Apply custom styles before runing other javascripts as they 
+	<!-- Apply custom styles before runing other javascripts as they
 	might be based on those styles as well -->
 	<?php
 		global $app_dynamic_styles;
@@ -130,8 +130,8 @@ if($post_id) {
 		$ken_styles_length = count($app_dynamic_styles);
 
 		if ($ken_styles_length > 0) {
-			foreach ($app_dynamic_styles as $key => $val) { 
-				$app_dynamic_styles_ids[] = $val["id"]; 
+			foreach ($app_dynamic_styles as $key => $val) {
+				$app_dynamic_styles_ids[] = $val["id"];
 				$app_dynamic_styles_inject .= $val["inject"];
 			};
 		}
@@ -140,8 +140,8 @@ if($post_id) {
 
 
 		if ($modulesLength > 0) {
-			foreach ($app_modules as $key => $val) { 
-				$modules[] = $val["name"]; 
+			foreach ($app_modules as $key => $val) {
+				$modules[] = $val["name"];
 				$params[] = $val["params"];
 			};
 		}
@@ -190,7 +190,7 @@ if($post_id) {
 			});
 		};
 
-		<?php 
+		<?php
 			if ($modulesLength > 0) {
 				for ($i = 0; $i < $modulesLength; $i++) {
 					echo "abb.modules." . $modules[$i] . ".init({";
@@ -198,12 +198,12 @@ if($post_id) {
 							echo $key . ": '$val',";
 						}
 					echo "}); \n";
-				} 
+				}
 
 				echo "abb.init();";
 			}
 		?>
-		
+
 	</script>
 
 <script src="/wp-content/uploads/2015/08/jquery.vmap_.packed.js"></script>
@@ -339,7 +339,7 @@ $('.ld-section-box').find('a').on('click', function(e){
 	var target = $(this).attr('href');
 	var target_offset = ($('body').hasClass('admin-bar') ? 98 : 66); // 66 = header height, 98 = header+adminbar height
 	var target_position = $(target).offset().top - target_offset;
-	
+
 	$('html,body').animate({
 		scrollTop: target_position
 	}, 600);
@@ -348,7 +348,7 @@ $('.ld-section-box').find('a').on('click', function(e){
 </script>
 
 <script>
-// Facebook 
+// Facebook
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '945663505477225',
@@ -365,7 +365,7 @@ $('.ld-section-box').find('a').on('click', function(e){
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>
-	
+
 </body>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -395,8 +395,21 @@ var google_remarketing_only = true;
 <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/961150407/?value=1.00&amp;currency_code=USD&amp;label=pG4yCOLe714Qx_unygM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
-
-<?php 
+<script type="text/javascript">
+  var _kmq = _kmq || [];
+  var _kmk = _kmk || '4f23210cd28379cf965ea2351de1550b13999b93';
+  function _kms(u){
+    setTimeout(function(){
+      var d = document, f = d.getElementsByTagName('script')[0],
+      s = d.createElement('script');
+      s.type = 'text/javascript'; s.async = true; s.src = u;
+      f.parentNode.insertBefore(s, f);
+    }, 1);
+  }
+  _kms('//i.kissmetrics.com/i.js');
+  _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
+</script>
+<?php
 $url_check = $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
 if( strpos($url_check, '/thank-you/') !== FALSE  || strpos( $url_check, '/thank-you-test/') !== FALSE ){ ?>
 <script type="text/javascript" src="/js/thank-you.js"></script>
