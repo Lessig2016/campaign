@@ -395,7 +395,20 @@ var google_remarketing_only = true;
 <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/961150407/?value=1.00&amp;currency_code=USD&amp;label=pG4yCOLe714Qx_unygM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
-
+<script type="text/javascript">
+  var _kmq = _kmq || [];
+  var _kmk = _kmk || '4f23210cd28379cf965ea2351de1550b13999b93';
+  function _kms(u){
+    setTimeout(function(){
+      var d = document, f = d.getElementsByTagName('script')[0],
+      s = d.createElement('script');
+      s.type = 'text/javascript'; s.async = true; s.src = u;
+      f.parentNode.insertBefore(s, f);
+    }, 1);
+  }
+  _kms('//i.kissmetrics.com/i.js');
+  _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
+</script>
 <?php 
 $url_check = $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
 if( strpos($url_check, '/thank-you/') !== FALSE  || strpos( $url_check, '/thank-you-test/') !== FALSE ){ ?>
