@@ -217,7 +217,7 @@ function numberWithCommas(x) {
 $(document).ready(function(){
     var GOAL = 1000000;
 
-    jQuery.getJSON('//pledge.lessig2016.us/r/total', function(data) {
+    jQuery.getJSON('https://pledge.lessig2016.us/r/total', function(data) {
       var totalRaised = Math.round(data.totalCents/100);
       $('#cash_money_count').text(numberWithCommas(totalRaised));
       if (totalRaised > 5000) {
@@ -225,7 +225,7 @@ $(document).ready(function(){
       }
     });
 
-    jQuery.getJSON('//pledge.lessig2016.us/r/num_pledges', function(data) {
+    jQuery.getJSON('https://pledge.lessig2016.us/r/num_pledges', function(data) {
       $('#donor_count').text(numberWithCommas(data.count));
     });
 
